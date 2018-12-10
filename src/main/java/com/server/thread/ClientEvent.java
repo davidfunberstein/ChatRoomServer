@@ -3,13 +3,13 @@ package com.server.thread;
 import com.shared.interfaces.RequestType;
 
 public class ClientEvent {
-    String msg;
+    String message;
     String sourceName;
     RequestType requestType;
     ClientHandler clientHandler;
 
-    public ClientEvent(String msg, RequestType requestType, String sourceName, ClientHandler clientHandler) {
-        this.msg = msg;
+    public ClientEvent(String message, RequestType requestType, String sourceName, ClientHandler clientHandler) {
+        this.message = message;
         this.requestType = requestType;
         this.sourceName = sourceName;
         this.clientHandler = clientHandler;
@@ -19,8 +19,8 @@ public class ClientEvent {
         return clientHandler;
     }
 
-    public String getMsg() {
-        return msg;
+    public String getMessage() {
+        return message;
     }
 
     public RequestType getRequestType() {

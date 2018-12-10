@@ -44,7 +44,7 @@ public class ChatRoomManager implements Observer {
     }
 
     protected boolean initUserNameOfLogin(ClientEvent newEvent, MessageReceiver messageReceiver){
-        String nameLogIn = newEvent.getMsg();
+        String nameLogIn = newEvent.getMessage();
         if (isCorrectUserNameToLogIn(nameLogIn)){
             clientHandlerMap.put(nameLogIn, newEvent.getClientHandler());
             clientsProcessInit.remove(newEvent.getClientHandler());
@@ -68,7 +68,7 @@ public class ChatRoomManager implements Observer {
 
     protected void sendMSGToUserTarget(ClientEvent msgFromSender){//"target"
         String senderName = msgFromSender.getSourceName();
-        String messageBody = msgFromSender.getMsg(); //message
+        String messageBody = msgFromSender.getMessage(); //message
         if(clientHandlerMap.size() > 1) {
             for (Map.Entry<String, ClientHandler> entry : clientHandlerMap.entrySet()) {
                 if(!entry.getKey().equals(msgFromSender.getSourceName())) {
