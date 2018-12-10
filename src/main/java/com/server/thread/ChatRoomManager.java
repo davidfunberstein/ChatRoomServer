@@ -60,7 +60,7 @@ public class ChatRoomManager implements Observer {
     }
 
     protected boolean isCorrectUserNameToLogIn(String name){
-        if(clientHandlerMap.get(name) == null){//trim
+        if(clientHandlerMap.get(name) == null || name.trim().isEmpty()){//trim
             return true;
         }
         return false;
