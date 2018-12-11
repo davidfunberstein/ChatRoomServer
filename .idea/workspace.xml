@@ -4,8 +4,7 @@
     <list default="true" id="906019cb-5b69-4136-a7dc-da5179b70110" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../ChatRoomClient/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ChatRoomClient/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/server/thread/ChatRoomManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/server/thread/ChatRoomManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/server/thread/ClientEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/server/thread/ClientEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/server/thread/ChatServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/server/thread/ChatServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ChatServerClient/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ChatServerClient/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ChatService/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ChatService/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ParseNumbers/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ParseNumbers/.idea/workspace.xml" afterDir="false" />
@@ -90,12 +89,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="80" />
+          <entry key="java" value="88" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="80" />
+          <entry key="JAVA" value="88" />
         </counts>
       </usages-collector>
     </session>
@@ -111,11 +110,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/server/thread/ChatServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+            <state relative-caret-position="288">
+              <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -147,10 +146,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/server/thread/ClientEvent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
+            <state relative-caret-position="-11">
               <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
             </state>
           </provider>
@@ -213,7 +212,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/server/thread/ChatServer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/server/thread/ClientHandler.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/server/thread/ClientHandlerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/server/thread/MessageReceiver.java" />
@@ -226,6 +224,7 @@
         <option value="$PROJECT_DIR$/src/test/java/com/server/thread/ChatRoomManagerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/server/thread/ChatRoomManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/server/thread/ClientEvent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/server/thread/ChatServer.java" />
       </list>
     </option>
   </component>
@@ -325,7 +324,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544454324516" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544458850041" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -497,7 +496,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3390558" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3390558" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -505,7 +504,7 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32891566" />
       <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.42354533" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991881" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -663,13 +662,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/server/thread/ChatServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/server/thread/ChatRoomManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="268">
@@ -679,8 +671,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/server/thread/ClientEvent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
+        <state relative-caret-position="-11">
           <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/server/thread/ChatServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
         </state>
       </provider>
     </entry>
