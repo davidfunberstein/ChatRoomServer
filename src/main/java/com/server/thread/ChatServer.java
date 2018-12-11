@@ -9,8 +9,8 @@ public class ChatServer {
     private int port;
     private ChatRoomManager chatRoomManager;
 
-    protected ChatServer(int port) {
-        this.port = port;
+    protected ChatServer(int portAdders) {
+        this.port = portAdders;
         this.chatRoomManager = new ChatRoomManager();
     }
 
