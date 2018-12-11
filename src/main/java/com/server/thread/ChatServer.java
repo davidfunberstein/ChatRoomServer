@@ -14,6 +14,7 @@ public class ChatServer {
         this.chatRoomManager = new ChatRoomManager();
     }
 
+
     protected void createServer(){
         try (ServerSocket serverSocket = new ServerSocket(port)) {
             System.out.println("Chat ChatServer is listening on port " + port);
